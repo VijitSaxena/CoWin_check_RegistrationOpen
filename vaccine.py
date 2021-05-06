@@ -11,7 +11,6 @@ while True:
     if len(response["sessions"]) == 0:
         print("***  ***")
         timeInterval = 5
-        pass
     else:
         print("REGISTRATION OPEN AT TIME : " + str(datetime.now(pytz.timezone('Asia/Kolkata'))))
         print(response)
